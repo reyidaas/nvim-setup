@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "ad8b398ffbb2a825",
+            "id": "bdab8a2026505b0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Source/Cortex Agent.md",
+                "file": "Quick notes/Strava promo codes - 15-03-2025 13.41.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cortex Agent"
+              "title": "Strava promo codes - 15-03-2025 13.41"
+            }
+          },
+          {
+            "id": "e5f28b6172ffe6f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quick notes/Turystyka górska - 15-03-2025 13.02.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Turystyka górska - 15-03-2025 13.02"
             }
           },
           {
@@ -92,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -246,24 +270,29 @@
       "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ad8b398ffbb2a825",
+  "active": "e5f28b6172ffe6f0",
   "lastOpenFiles": [
+    "Quick notes/Strava promo codes - 15-03-2025 13.41.md",
+    "Quick notes/Turystyka górska - 15-03-2025 13.02.md",
+    "Tags/mountains.md",
+    "Travel/Trips.md",
+    "Goals/Programming goals.md",
+    "Files/Drawing 2025-01-12 22.11.41.excalidraw.md",
+    "Quick notes/Reddit valut - 08-03-2025 14.45.md",
+    "Tags/reddit.md",
+    "Quick notes/How do I feel  - 06-03-2025 10.21.md",
+    "Zettelkasten/Source/Cortex Agent.md",
     "Templates/Basic note - Zet.md",
     "Templates/Meeting.md",
-    "Zettelkasten/Source/Cortex Agent.md",
     "Templates/Quick note.md",
-    "Files/Drawing 2025-01-12 22.11.41.excalidraw.md",
     "Quick notes/asdfasdf - 26-02-2025 22.15.md",
     "Quick notes/Quick note - 26-02-2025 22.15.md",
     "Quick notes/Text Generation test - 22-02-2025 12.29.md",
     "Quick notes/Perplexity API test - 22-02-2025 13.18.md",
     "Projects/Ideas/AI test generator.md",
-    "Goals/Programming goals.md",
     "Goals/Personal goals.md",
     "Quick notes/Car repair expenses - 15-01-2025 19.03.md",
     "Quick notes/Shottr - 21-02-2025 23.31.md",
@@ -276,14 +305,7 @@
     "Files/Pasted Image 20250115171958_266.png",
     "Files/Pasted Image 20250115171935_097.png",
     "Goals/Work goals.md",
-    "Zettelkasten/Source/Project - Cortex.md",
-    "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
-    "Zettelkasten/Source/AI Agent Project.md",
-    "Templates/Blank.md",
-    "Courses/AI Devs 1/Lessons/14 — Sprawdzisz się na produkcji?.md",
     "Goals",
-    "Zettelkasten/Source/Prezentacja o AI - pomysły .md",
-    "Tags/goals.md",
     "Quick notes/Koszykarstwo  - 10-12-2024 02.28md.txt",
     "Quick notes/Quick note - 22-11-2024 17.38.txt",
     "Quick notes/Quick note - 22-11-2024 17.33.txt",

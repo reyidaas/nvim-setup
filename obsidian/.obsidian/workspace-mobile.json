@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7370dc3ec9385623",
+        "id": "9721b17d2d59a201",
         "type": "tabs",
         "children": [
           {
-            "id": "2c34f7a86c849e60",
+            "id": "7f12af677eec99f1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick notes/Car repair expenses - 15-01-2025 19.03.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Car repair expenses - 15-01-2025 19.03"
+              "title": "New tab"
             }
           }
         ]
@@ -150,8 +136,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -162,10 +146,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2c34f7a86c849e60",
+  "active": "7f12af677eec99f1",
   "lastOpenFiles": [
-    "Cooking/Recipes list.md",
+    "Quick notes/Shottr - 21-02-2025 23.31.md",
+    "Quick notes/How do I feel  - 06-03-2025 10.21.md",
     "Quick notes/Car repair expenses - 15-01-2025 19.03.md",
+    "Cooking/Recipes list.md",
     "Projects/Ideas/Prompt versioner.md",
     "Projects/Ideas/Feed and articles aggregator.md",
     "Projects/Ideas/Feed ",
@@ -190,8 +176,6 @@
     "Quick notes/Koszykarstwo  - 10-12-2024 02.28md.txt",
     "Zettelkasten/Source/Prezentacja o AI - pomysły .md",
     "Quick notes/Quick note - 06-12-2024 02.32.md",
-    "Quick notes/Death and life meaning - 28-11-2024 22.39.md",
-    "Quick notes/Quick note - 30-11-2024 17.54.md",
     "Quick notes/25-10-2024 00.46.txt",
     "Quick notes/299-10-2024 00.38.txt",
     "Quick notes/---.txt",
