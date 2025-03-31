@@ -23,16 +23,17 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'windwp/nvim-ts-autotag'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'sainnhe/gruvbox-material'
-Plug 'rebelot/kanagawa.nvim'
+"Plug 'sainnhe/gruvbox-material'
+"Plug 'rebelot/kanagawa.nvim'
 Plug 'github/copilot.vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
-Plug 'ramojus/mellifluous.nvim'
-Plug 'zenbones-theme/zenbones.nvim'
+"Plug 'ramojus/mellifluous.nvim'
+"Plug 'zenbones-theme/zenbones.nvim'
 Plug 'rktjmp/lush.nvim'
-Plug 'savq/melange-nvim'
+"Plug 'savq/melange-nvim'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'stevearc/oil.nvim'
 
 call plug#end()
 
@@ -164,9 +165,9 @@ nnoremap <silent>+ :vertical resize +5<CR>
 nnoremap <silent>- :vertical resize -5<CR>
 nnoremap <silent>[ :resize -5<CR>
 nnoremap <silent>] :resize +5<CR>
-nnoremap <silent><leader>ve :Vex<CR>
-nnoremap <silent><leader>ee :Exp<CR>
-nnoremap <silent><leader>he :Sex<CR>
+" nnoremap <silent><leader>ve :Vex<CR>
+" nnoremap <silent><leader>ee :Exp<CR>
+" nnoremap <silent><leader>he :Sex<CR>
 nnoremap <silent><leader>,m :G mergetool<CR>
 nnoremap <silent><leader>,b :G blame<CR>
 nnoremap <silent><leader>,s :Gvdiffsplit!<CR>
