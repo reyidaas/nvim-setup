@@ -1,0 +1,14 @@
+{
+  "snippets_file": "q_media : > [!quote]- {{date}}$nl$> ![[$end$]]",
+  "snippets": [
+    "q_media : > [!quote]- {{date}}$nl$> ![[$end$]]"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": false,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}

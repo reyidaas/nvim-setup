@@ -7,6 +7,7 @@
   "monospaceFontFamily": "",
   "translucency": false,
   "enabledCssSnippets": [
-    "hide-app-ribbon"
+    "hide-app-ribbon",
+    "Hide tabs"
   ]
 }

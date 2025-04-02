@@ -1,23 +1,4 @@
 {
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "S"
-    }
-  ],
-  "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
   "editor:open-link-in-new-leaf": [
     {
       "modifiers": [
@@ -291,7 +272,7 @@
     },
     {
       "modifiers": [
-        "Mod"
+        "Shift"
       ],
       "key": "ArrowLeft"
     }
@@ -306,7 +287,7 @@
     },
     {
       "modifiers": [
-        "Mod"
+        "Shift"
       ],
       "key": "ArrowRight"
     }
@@ -334,6 +315,75 @@
         "Mod"
       ],
       "key": "0"
+    }
+  ],
+  "text-snippets-obsidian:text-snippets": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": " "
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "]"
+    },
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "["
+    },
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "ArrowUp"
     }
   ]
 }

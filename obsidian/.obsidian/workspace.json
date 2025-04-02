@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b49e716edbeb83d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Goals/Programming goals.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Programming goals"
-            }
-          },
-          {
-            "id": "bdab8a2026505b0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick notes/Strava promo codes - 15-03-2025 13.41.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Strava promo codes - 15-03-2025 13.41"
-            }
-          },
-          {
             "id": "e5f28b6172ffe6f0",
             "type": "leaf",
             "state": {
@@ -80,8 +32,35 @@
             }
           },
           {
+            "id": "b49e716edbeb83d4",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Goals/Programming goals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Programming goals"
+            }
+          },
+          {
             "id": "2a6c644dbe36a714",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -99,24 +78,52 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Personal goals"
             }
           },
           {
+            "id": "87379e2c77648560",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Source/Cortex Agent.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Cortex Agent"
+            }
+          },
+          {
             "id": "67909edd4b9b5d5e",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "excalidraw",
               "state": {
                 "file": "Files/Drawing 2025-01-12 22.11.41.excalidraw.md"
               },
+              "pinned": true,
               "icon": "excalidraw-icon",
               "title": "Drawing 2025-01-12 22.11.41.excalidraw"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,8 +185,19 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "8b41df0e13ef004b",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "vertical-tabs",
+              "title": "Vertical tabs"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -219,12 +237,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick notes/21-11-2024 00.47.md",
+                "file": "Quick notes/Turystyka górska - 15-03-2025 13.02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 21-11-2024 00.47"
+              "title": "Outgoing links from Turystyka górska - 15-03-2025 13.02"
             }
           },
           {
@@ -275,16 +293,17 @@
   },
   "active": "e5f28b6172ffe6f0",
   "lastOpenFiles": [
-    "Quick notes/Strava promo codes - 15-03-2025 13.41.md",
+    "Goals/Programming goals.md",
+    "Goals/Personal goals.md",
+    "Zettelkasten/Source/Cortex Agent.md",
+    "Files/Drawing 2025-01-12 22.11.41.excalidraw.md",
     "Quick notes/Turystyka górska - 15-03-2025 13.02.md",
+    "Quick notes/Strava promo codes - 15-03-2025 13.41.md",
     "Tags/mountains.md",
     "Travel/Trips.md",
-    "Goals/Programming goals.md",
-    "Files/Drawing 2025-01-12 22.11.41.excalidraw.md",
     "Quick notes/Reddit valut - 08-03-2025 14.45.md",
     "Tags/reddit.md",
     "Quick notes/How do I feel  - 06-03-2025 10.21.md",
-    "Zettelkasten/Source/Cortex Agent.md",
     "Templates/Basic note - Zet.md",
     "Templates/Meeting.md",
     "Templates/Quick note.md",
@@ -293,7 +312,6 @@
     "Quick notes/Text Generation test - 22-02-2025 12.29.md",
     "Quick notes/Perplexity API test - 22-02-2025 13.18.md",
     "Projects/Ideas/AI test generator.md",
-    "Goals/Personal goals.md",
     "Quick notes/Car repair expenses - 15-01-2025 19.03.md",
     "Quick notes/Shottr - 21-02-2025 23.31.md",
     "Zettelkasten/Source/Planning my day, timeboxing - Structured app.md",
