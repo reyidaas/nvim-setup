@@ -443,7 +443,7 @@
       "templatePath": "Templates/Blank.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{name}}"
+        "format": "{{name}} - {{DATE:DD-MM-YYYY HH.mm}}"
       },
       "folder": {
         "enabled": true,
@@ -538,7 +538,7 @@
       "templatePath": "Templates/Basic note - Zet.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{name}}"
+        "format": "{{name}} - {{DATE:DD-MM-YYYY HH.mm}}"
       },
       "folder": {
         "enabled": true,

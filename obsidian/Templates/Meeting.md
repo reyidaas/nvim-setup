@@ -15,18 +15,11 @@ Date: "{{date}}{{time}}"
 
 
 
-### Context
-
-
 ### Todo
 
 
 ---
 ### Open Questions
-
-
-
-### Decision Log
 
 
 

@@ -1,20 +1,17 @@
 ---
-Name: "{{name}}"
+Name: "{{name}} - {{DATE:DD-MM-YYYY HH.mm}}"
 Date: "{{date}}{{time}}"
 ---
 > tags: 
 > status: 
 
-# {{name}}
+# {{name}} - {{DATE:DD-MM-YYYY HH.mm}}
 
 ### Overview
 
 
 
 ### Key points
-
-
-### Context
 
 
 
@@ -24,10 +21,6 @@ Date: "{{date}}{{time}}"
 
 ---
 ### Open Questions
-
-
-
-### Decision Log
 
 
 

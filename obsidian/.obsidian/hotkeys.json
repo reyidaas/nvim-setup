@@ -385,5 +385,14 @@
       ],
       "key": "ArrowUp"
     }
+  ],
+  "quickadd:choice:856f81d1-a738-45b4-b472-65955672d0f6": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "B"
+    }
   ]
 }
