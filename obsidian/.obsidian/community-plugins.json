@@ -3,10 +3,10 @@
   "obsidian-excalidraw-plugin",
   "obsidian-minimal-settings",
   "obsidian-style-settings",
-  "obsidian-importer",
   "omnisearch",
   "snippet-commands-obsidian",
   "obsidian-electron-window-tweaker",
   "text-snippets-obsidian",
-  "vertical-tabs"
+  "vertical-tabs",
+  "obsidian-advanced-uri"
 ]

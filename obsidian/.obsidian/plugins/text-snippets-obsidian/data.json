@@ -1,7 +1,8 @@
 {
-  "snippets_file": "q_media : > [!quote]- {{date}}$nl$> ![[$end$]]",
+  "snippets_file": "q_media : > [!quote]- {{date}}$nl$> ![[$end$]]\ntd : - [ ] $end$",
   "snippets": [
-    "q_media : > [!quote]- {{date}}$nl$> ![[$end$]]"
+    "q_media : > [!quote]- {{date}}$nl$> ![[$end$]]",
+    "td : - [ ] $end$"
   ],
   "endSymbol": "$end$",
   "newlineSymbol": "$nl$",

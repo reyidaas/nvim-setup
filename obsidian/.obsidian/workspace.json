@@ -86,6 +86,32 @@
             }
           },
           {
+            "id": "9a67326c40c7bb6d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Source/10xDevs - 06-04-2025 22.34.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "10xDevs - 06-04-2025 22.34"
+            }
+          },
+          {
             "id": "67909edd4b9b5d5e",
             "type": "leaf",
             "pinned": true,
@@ -98,8 +124,33 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2025-01-12 22.11.41.excalidraw"
             }
+          },
+          {
+            "id": "26098b72052db65d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Source/Silesia Marathon 07-04-2025 00.23.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Silesia Marathon 07-04-2025 00.23"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -153,16 +204,6 @@
             }
           },
           {
-            "id": "a6c31a9c72e38cb7",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "8b41df0e13ef004b",
             "type": "leaf",
             "state": {
@@ -173,7 +214,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -262,17 +303,33 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b49e716edbeb83d4",
+  "active": "26098b72052db65d",
   "lastOpenFiles": [
-    "Goals/Personal goals.md",
+    "Zettelkasten/Source/10xDevs - 06-04-2025 22.34.md",
     "Zettelkasten/Source/Cortex Agent.md",
     "Files/Drawing 2025-01-12 22.11.41.excalidraw.md",
+    "Quick notes/Shottr - 21-02-2025 23.31.md",
+    "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md",
     "Goals/Programming goals.md",
+    "Goals/Personal goals.md",
+    "Zettelkasten/Source/Slim app actions 04-04-2025 23.09.md",
+    "Zettelkasten/Source/Silesia Marathon 07-04-2025 00.23.md",
+    "Quick notes/Perplexity API test - 22-02-2025 13.18.md",
+    "Zettelkasten/Source/AI Devs 3.md",
+    "Tags/sport.md",
+    "Cortex/Free and Cheap PostgreSQL Hosting Solutions.md",
+    "Cortex/Overview of Lynx Mobile Framework.md",
+    "Tags/mountains.md",
+    "Cortex/Lynx Framework Overview.md",
+    "Cortex",
+    "Courses/Untitled",
+    "Zettelkasten/Source/Pens 05-04-2025 17.59.md",
+    "Tags/slim-app.md",
+    "Quick notes/Quick note - 04-04-2025 01.23.md",
     "Daily notes/04-04-2025.md",
     "Templates/Basic note - Zet.md",
     "Templates/Meeting.md",
@@ -280,21 +337,6 @@
     "Zettelkasten/Source/Fabulous 03-04-2025 23.39.md",
     "Templates/Blank.md",
     "Zettelkasten/Source/Foo bar! 03-04-2025 23.38.md",
-    "Zettelkasten/Source/This is a test note 03-04-2025.md",
-    "Quick notes/Quick note - 03-04-2025 23.31.md",
-    "Quick notes/Quick note - 03-04-2025 23.30.md",
-    "Quick notes/Quick note - 03-04-2025 23.24.md",
-    "Quick notes/Quick note - 03-04-2025 23.23.md",
-    "Quick notes/Quick note - 03-04-2025 23.21.md",
-    "Templates/Quick note.md",
-    "Quick notes/Strava promo codes - 15-03-2025 13.41.md",
-    "Tags/mountains.md",
-    "Travel/Trips.md",
-    "Quick notes/Reddit valut - 08-03-2025 14.45.md",
-    "Tags/reddit.md",
-    "Quick notes/How do I feel  - 06-03-2025 10.21.md",
-    "Quick notes/asdfasdf - 26-02-2025 22.15.md",
-    "Quick notes/Quick note - 26-02-2025 22.15.md",
     "Files/Pasted Image 20250115172143_869.png",
     "Files/Pasted Image 20250115172127_205.png",
     "Files/Pasted Image 20250115171958_266.png",
@@ -310,10 +352,8 @@
     "Files/IMG_6565.jpeg",
     "Files/BC43E8F3-0BBF-4E13-A4AA-DB834704DD7D_1_201_a.heic",
     "Quick notes/299-10-2024 00.38.txt",
-    "Quick notes/---.txt",
     "Files/Pasted image 20241024234448.jpg",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
-    "Tasks/ai-devs-3",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg"
   ]
 }
