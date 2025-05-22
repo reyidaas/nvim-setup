@@ -117,6 +117,7 @@ bindkey '\ed' fzf-cd-widget
 alias vim="/opt/homebrew/bin/nvim"
 alias notes="cd /Users/mrejdych/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Personal"
 alias obsdn="cd ~/Library/Mobile\ Documents/iCloud\~md\~obsidian/Documents/Personal/"
+alias python="/opt/homebrew/bin/python3"
 
 # bun completions
 [ -s "/Users/mrejdych/.bun/_bun" ] && source "/Users/mrejdych/.bun/_bun"
