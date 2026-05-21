@@ -184,7 +184,7 @@ nnoremap <silent><leader>,g :G<CR>
 nnoremap <silent><leader>,s :Gvdiffsplit!<CR>
 nnoremap <silent><leader>,h :diffget //2<CR>
 nnoremap <silent><leader>,l :diffget //3<CR>
-nnoremap <silent><leader>lr :LspRestart<CR>
+nnoremap <silent><leader>lr :lsp restart<CR>
 nnoremap <silent><leader>cab :bufdo bw<CR>
 vnoremap <silent><leader>y "+y<CR>
 
