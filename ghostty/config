@@ -42,12 +42,15 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 theme = Gruvbox Material
+background-image = /Users/mrejdych/wallpapers/gruvbox5.png
+background-image-opacity = 0.06
+background-image-fit = cover
 macos-titlebar-style = hidden
 shell-integration-features = no-cursor
 cursor-style = block
 cursor-style-blink = false
 mouse-scroll-multiplier = 0
 font-feature = -calt,-liga,-dlig
-font-size=14 
+font-size=14  
 keybind = alt+right=unbind
 keybind = alt+left=unbind
