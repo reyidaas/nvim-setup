@@ -1,188 +1,188 @@
-require("kanagawa").setup({
-  keywordStyle = { italic = false },
-  transparent = true,
-  bold = true,
-  theme = "dragon",
-  colors = {
-    theme = { all = { ui = { bg_gutter = 'none', float = { bg = 'none' } } } },
-  },
-  overrides = function(colors)
-    local gruvbox = {
-      fg = "#d4be98",
-      fg1 = "#ddc7a1",
-      red = "#ea6962",
-      orange = "#e78a4e",
-      yellow = "#d8a657",
-      green = "#a9b665",
-      aqua = "#89b482",
-      blue = "#7daea3",
-      purple = "#d3869b",
-      gray = "#928374",
-      gray2 = "#a89984",
-      bg0 = "#32302f",
-      bg1 = "#3c3836",
-      bg2 = "#504945",
-      bg_visual = "#45403d", -- For visual selection
-      bg_yellow = "#d8a657", -- For search highlights
-      bg_red = "#ea6962",    -- For current search
-    }
-
-    return {
-      String = { fg = gruvbox.aqua, italic = true },
-      Operator = { fg = gruvbox.gray },
-      Comment = { fg = gruvbox.gray, italic = true },
-
-      -- Static values in purple
-      Boolean = { fg = gruvbox.purple },
-      Constant = { fg = gruvbox.purple },
-      Number = { fg = gruvbox.purple }, -- Makes 3000, numbers pop a bit more
-      ["@boolean"] = { fg = gruvbox.purple },
-      ["@constant"] = { fg = gruvbox.purple },
-      ["@constant.builtin"] = { fg = gruvbox.purple }, -- null, undefined, etc
-      ["@number"] = { fg = gruvbox.purple },
-      ["@lsp.type.enumMember"] = { fg = gruvbox.purple },
-
-
-      Keyword = { fg = gruvbox.red },
-      ["@keyword.return"] = { bold = true },
-
-      -- Functions in YELLOW
-      Function = { fg = gruvbox.yellow, bold = true },
-      ["@function"] = { fg = gruvbox.yellow, bold = true },
-      ["@function.builtin"] = { fg = gruvbox.yellow, bold = true },
-      ["@function.call"] = { fg = gruvbox.yellow, bold = true },
-      ["@function.method"] = { fg = gruvbox.yellow, bold = true },
-      ["@lsp.type.function"] = { fg = gruvbox.yellow },
-      ["@lsp.type.method"] = { fg = gruvbox.yellow },
-      ["@lsp.type.magicFunction"] = { fg = gruvbox.yellow },
-      ["@lsp.typemod.function.builtin"] = { fg = gruvbox.yellow },
-      ["@lsp.typemod.function.defaultLibrary"] = { fg = gruvbox.yellow },
-      ["@lsp.typemod.method.defaultLibrary"] = { fg = gruvbox.yellow },
-      ["@lsp.typemod.function.readonly"] = { fg = gruvbox.yellow },
-      ["@lsp.typemod.method.readonly"] = { fg = gruvbox.yellow },
-
-      -- User-defined TYPES in ORANGE (interfaces, type aliases, classes)
-      Type = { fg = gruvbox.orange },
-      ["@type"] = { fg = gruvbox.orange },
-      ["@type.definition"] = { fg = gruvbox.orange }, -- Your custom type definitions
-      ["@type.builtin"] = { fg = gruvbox.orange, bold = true },
-      ["@lsp.type.type"] = { fg = gruvbox.orange },
-      ["@lsp.type.class"] = { fg = gruvbox.orange },
-      ["@lsp.type.interface"] = { fg = gruvbox.orange }, -- Your interfaces!
-      ["@lsp.type.typeParameter"] = { fg = gruvbox.orange },
-      ["@lsp.type.enum"] = { fg = gruvbox.orange },
-
-      Special = { fg = gruvbox.orange, bold = true },
-
-      -- JSX/HTML
-      ["@tag"] = { fg = gruvbox.green },
-      ["@tag.builtin"] = { fg = gruvbox.green },
-      ["@tag.delimiter"] = { fg = gruvbox.gray2 },
-      ["@tag.attribute"] = { fg = gruvbox.orange },
-
-      -- Properties/members
-      ["@variable.member"] = { fg = gruvbox.blue },
-      ["@property"] = { fg = gruvbox.blue },
-      ["@lsp.type.property"] = { fg = gruvbox.blue },
-
-      -- Identifiers
-      Identifier = { fg = gruvbox.fg },
-      Statement = { fg = gruvbox.red },
-
-      -- Variables
-      ["@namespace"] = { fg = gruvbox.fg1 },
-      ["@variable.builtin"] = { fg = gruvbox.red },
-      ["@variable.parameter"] = { fg = gruvbox.fg },
-      ["@parameter"] = { fg = gruvbox.fg },
-      ["@variable"] = { fg = gruvbox.fg },
-      ["@attribute"] = { fg = gruvbox.yellow },
-
-      NormalFloat = { bg = "none" },
-      FloatBorder = { bg = "none" },
-      FloatTitle = { bg = "none" },
-
-      -- TELESCOPE - Fixed for better visibility
-      TelescopeNormal = { fg = gruvbox.fg },
-      TelescopeBorder = { fg = gruvbox.gray },
-      TelescopePromptNormal = { fg = gruvbox.fg1 },
-      TelescopePromptBorder = { fg = gruvbox.gray },
-      TelescopePromptTitle = { fg = gruvbox.orange, bold = true },
-      TelescopePreviewTitle = { fg = gruvbox.green, bold = true },
-      TelescopeResultsTitle = { fg = gruvbox.blue, bold = true },
-
-      -- CRITICAL: Make selection VERY visible
-      TelescopeSelection = {
-        bg = gruvbox.bg2, -- Much lighter background
-        bold = true
-      },
-      TelescopeSelectionCaret = { fg = gruvbox.orange }, -- The ">" indicator
-
-      -- CRITICAL: Make matched characters BRIGHT and visible
-      TelescopeMatching = {
-        fg = gruvbox.yellow, -- Bright yellow
-        bold = true
-      },
-
-      -- Popup/Completion menu colors
-      Pmenu = { fg = gruvbox.fg, bg = gruvbox.bg0 },
-      PmenuSel = { fg = gruvbox.fg1, bg = gruvbox.bg2, bold = true }, -- Also use bg2 for consistency
-      PmenuSbar = { bg = gruvbox.bg1 },
-      PmenuThumb = { bg = gruvbox.gray },
-
-      -- Completion item kinds
-      CmpItemKindText = { fg = gruvbox.fg },
-      CmpItemKindMethod = { fg = gruvbox.yellow },
-      CmpItemKindFunction = { fg = gruvbox.yellow },
-      CmpItemKindConstructor = { fg = gruvbox.orange },
-      CmpItemKindField = { fg = gruvbox.blue },
-      CmpItemKindVariable = { fg = gruvbox.fg },
-      CmpItemKindClass = { fg = gruvbox.yellow },
-      CmpItemKindInterface = { fg = gruvbox.yellow },
-      CmpItemKindModule = { fg = gruvbox.blue },
-      CmpItemKindProperty = { fg = gruvbox.blue },
-      CmpItemKindKeyword = { fg = gruvbox.red },
-      CmpItemKindFile = { fg = gruvbox.fg },
-      CmpItemKindSnippet = { fg = gruvbox.green },
-      CmpItemKindConstant = { fg = gruvbox.purple },
-
-      -- Matched characters in completion (also brighter)
-      CmpItemAbbrMatch = { fg = gruvbox.yellow, bold = true },
-      CmpItemAbbrMatchFuzzy = { fg = gruvbox.yellow, bold = true },
-
-      -- File explorer colors
-      Directory = { fg = gruvbox.blue, bold = true },
-      OilDir = { fg = gruvbox.blue, bold = true },
-      OilDirIcon = { fg = gruvbox.blue },
-      OilFile = { fg = gruvbox.fg },
-      OilSocket = { fg = gruvbox.purple },
-      OilLink = { fg = gruvbox.aqua },
-
-      -- VISUAL SELECTION (when pressing V, v, or Ctrl+v)
-      Visual = { bg = gruvbox.bg_visual },
-      VisualNOS = { bg = gruvbox.bg_visual },
-
-      -- SEARCH HIGHLIGHTS (when pressing * or /)
-      Search = {
-        fg = gruvbox.bg0,       -- Dark foreground
-        bg = gruvbox.bg_yellow, -- Yellow background
-        bold = true
-      },
-      IncSearch = {
-        fg = gruvbox.bg0,    -- Dark foreground
-        bg = gruvbox.orange, -- Orange background (incremental search)
-        bold = true
-      },
-      CurSearch = {
-        fg = gruvbox.bg0,    -- Dark foreground
-        bg = gruvbox.bg_red, -- Red background (current match)
-        bold = true
-      },
-    }
-  end,
-})
-
-vim.cmd("colorscheme kanagawa-dragon")
-
-for _, group in ipairs(vim.fn.getcompletion("@lsp", "highlight")) do
-  vim.api.nvim_set_hl(0, group, {})
-end
+-- require("kanagawa").setup({
+--   keywordStyle = { italic = false },
+--   transparent = true,
+--   bold = true,
+--   theme = "dragon",
+--   colors = {
+--     theme = { all = { ui = { bg_gutter = 'none', float = { bg = 'none' } } } },
+--   },
+--   overrides = function(colors)
+--     local gruvbox = {
+--       fg = "#d4be98",
+--       fg1 = "#ddc7a1",
+--       red = "#ea6962",
+--       orange = "#e78a4e",
+--       yellow = "#d8a657",
+--       green = "#a9b665",
+--       aqua = "#89b482",
+--       blue = "#7daea3",
+--       purple = "#d3869b",
+--       gray = "#928374",
+--       gray2 = "#a89984",
+--       bg0 = "#32302f",
+--       bg1 = "#3c3836",
+--       bg2 = "#504945",
+--       bg_visual = "#45403d", -- For visual selection
+--       bg_yellow = "#d8a657", -- For search highlights
+--       bg_red = "#ea6962",    -- For current search
+--     }
+--
+--     return {
+--       String = { fg = gruvbox.aqua, italic = true },
+--       Operator = { fg = gruvbox.gray },
+--       Comment = { fg = gruvbox.gray, italic = true },
+--
+--       -- Static values in purple
+--       Boolean = { fg = gruvbox.purple },
+--       Constant = { fg = gruvbox.purple },
+--       Number = { fg = gruvbox.purple }, -- Makes 3000, numbers pop a bit more
+--       ["@boolean"] = { fg = gruvbox.purple },
+--       ["@constant"] = { fg = gruvbox.purple },
+--       ["@constant.builtin"] = { fg = gruvbox.purple }, -- null, undefined, etc
+--       ["@number"] = { fg = gruvbox.purple },
+--       ["@lsp.type.enumMember"] = { fg = gruvbox.purple },
+--
+--
+--       Keyword = { fg = gruvbox.red },
+--       ["@keyword.return"] = { bold = true },
+--
+--       -- Functions in YELLOW
+--       Function = { fg = gruvbox.yellow, bold = true },
+--       ["@function"] = { fg = gruvbox.yellow, bold = true },
+--       ["@function.builtin"] = { fg = gruvbox.yellow, bold = true },
+--       ["@function.call"] = { fg = gruvbox.yellow, bold = true },
+--       ["@function.method"] = { fg = gruvbox.yellow, bold = true },
+--       ["@lsp.type.function"] = { fg = gruvbox.yellow },
+--       ["@lsp.type.method"] = { fg = gruvbox.yellow },
+--       ["@lsp.type.magicFunction"] = { fg = gruvbox.yellow },
+--       ["@lsp.typemod.function.builtin"] = { fg = gruvbox.yellow },
+--       ["@lsp.typemod.function.defaultLibrary"] = { fg = gruvbox.yellow },
+--       ["@lsp.typemod.method.defaultLibrary"] = { fg = gruvbox.yellow },
+--       ["@lsp.typemod.function.readonly"] = { fg = gruvbox.yellow },
+--       ["@lsp.typemod.method.readonly"] = { fg = gruvbox.yellow },
+--
+--       -- User-defined TYPES in ORANGE (interfaces, type aliases, classes)
+--       Type = { fg = gruvbox.orange },
+--       ["@type"] = { fg = gruvbox.orange },
+--       ["@type.definition"] = { fg = gruvbox.orange }, -- Your custom type definitions
+--       ["@type.builtin"] = { fg = gruvbox.orange, bold = true },
+--       ["@lsp.type.type"] = { fg = gruvbox.orange },
+--       ["@lsp.type.class"] = { fg = gruvbox.orange },
+--       ["@lsp.type.interface"] = { fg = gruvbox.orange }, -- Your interfaces!
+--       ["@lsp.type.typeParameter"] = { fg = gruvbox.orange },
+--       ["@lsp.type.enum"] = { fg = gruvbox.orange },
+--
+--       Special = { fg = gruvbox.orange, bold = true },
+--
+--       -- JSX/HTML
+--       ["@tag"] = { fg = gruvbox.green },
+--       ["@tag.builtin"] = { fg = gruvbox.green },
+--       ["@tag.delimiter"] = { fg = gruvbox.gray2 },
+--       ["@tag.attribute"] = { fg = gruvbox.orange },
+--
+--       -- Properties/members
+--       ["@variable.member"] = { fg = gruvbox.blue },
+--       ["@property"] = { fg = gruvbox.blue },
+--       ["@lsp.type.property"] = { fg = gruvbox.blue },
+--
+--       -- Identifiers
+--       Identifier = { fg = gruvbox.fg },
+--       Statement = { fg = gruvbox.red },
+--
+--       -- Variables
+--       ["@namespace"] = { fg = gruvbox.fg1 },
+--       ["@variable.builtin"] = { fg = gruvbox.red },
+--       ["@variable.parameter"] = { fg = gruvbox.fg },
+--       ["@parameter"] = { fg = gruvbox.fg },
+--       ["@variable"] = { fg = gruvbox.fg },
+--       ["@attribute"] = { fg = gruvbox.yellow },
+--
+--       NormalFloat = { bg = "none" },
+--       FloatBorder = { bg = "none" },
+--       FloatTitle = { bg = "none" },
+--
+--       -- TELESCOPE - Fixed for better visibility
+--       TelescopeNormal = { fg = gruvbox.fg },
+--       TelescopeBorder = { fg = gruvbox.gray },
+--       TelescopePromptNormal = { fg = gruvbox.fg1 },
+--       TelescopePromptBorder = { fg = gruvbox.gray },
+--       TelescopePromptTitle = { fg = gruvbox.orange, bold = true },
+--       TelescopePreviewTitle = { fg = gruvbox.green, bold = true },
+--       TelescopeResultsTitle = { fg = gruvbox.blue, bold = true },
+--
+--       -- CRITICAL: Make selection VERY visible
+--       TelescopeSelection = {
+--         bg = gruvbox.bg2, -- Much lighter background
+--         bold = true
+--       },
+--       TelescopeSelectionCaret = { fg = gruvbox.orange }, -- The ">" indicator
+--
+--       -- CRITICAL: Make matched characters BRIGHT and visible
+--       TelescopeMatching = {
+--         fg = gruvbox.yellow, -- Bright yellow
+--         bold = true
+--       },
+--
+--       -- Popup/Completion menu colors
+--       Pmenu = { fg = gruvbox.fg, bg = gruvbox.bg0 },
+--       PmenuSel = { fg = gruvbox.fg1, bg = gruvbox.bg2, bold = true }, -- Also use bg2 for consistency
+--       PmenuSbar = { bg = gruvbox.bg1 },
+--       PmenuThumb = { bg = gruvbox.gray },
+--
+--       -- Completion item kinds
+--       CmpItemKindText = { fg = gruvbox.fg },
+--       CmpItemKindMethod = { fg = gruvbox.yellow },
+--       CmpItemKindFunction = { fg = gruvbox.yellow },
+--       CmpItemKindConstructor = { fg = gruvbox.orange },
+--       CmpItemKindField = { fg = gruvbox.blue },
+--       CmpItemKindVariable = { fg = gruvbox.fg },
+--       CmpItemKindClass = { fg = gruvbox.yellow },
+--       CmpItemKindInterface = { fg = gruvbox.yellow },
+--       CmpItemKindModule = { fg = gruvbox.blue },
+--       CmpItemKindProperty = { fg = gruvbox.blue },
+--       CmpItemKindKeyword = { fg = gruvbox.red },
+--       CmpItemKindFile = { fg = gruvbox.fg },
+--       CmpItemKindSnippet = { fg = gruvbox.green },
+--       CmpItemKindConstant = { fg = gruvbox.purple },
+--
+--       -- Matched characters in completion (also brighter)
+--       CmpItemAbbrMatch = { fg = gruvbox.yellow, bold = true },
+--       CmpItemAbbrMatchFuzzy = { fg = gruvbox.yellow, bold = true },
+--
+--       -- File explorer colors
+--       Directory = { fg = gruvbox.blue, bold = true },
+--       OilDir = { fg = gruvbox.blue, bold = true },
+--       OilDirIcon = { fg = gruvbox.blue },
+--       OilFile = { fg = gruvbox.fg },
+--       OilSocket = { fg = gruvbox.purple },
+--       OilLink = { fg = gruvbox.aqua },
+--
+--       -- VISUAL SELECTION (when pressing V, v, or Ctrl+v)
+--       Visual = { bg = gruvbox.bg_visual },
+--       VisualNOS = { bg = gruvbox.bg_visual },
+--
+--       -- SEARCH HIGHLIGHTS (when pressing * or /)
+--       Search = {
+--         fg = gruvbox.bg0,       -- Dark foreground
+--         bg = gruvbox.bg_yellow, -- Yellow background
+--         bold = true
+--       },
+--       IncSearch = {
+--         fg = gruvbox.bg0,    -- Dark foreground
+--         bg = gruvbox.orange, -- Orange background (incremental search)
+--         bold = true
+--       },
+--       CurSearch = {
+--         fg = gruvbox.bg0,    -- Dark foreground
+--         bg = gruvbox.bg_red, -- Red background (current match)
+--         bold = true
+--       },
+--     }
+--   end,
+-- })
+--
+-- vim.cmd("colorscheme kanagawa-dragon")
+--
+-- for _, group in ipairs(vim.fn.getcompletion("@lsp", "highlight")) do
+--   vim.api.nvim_set_hl(0, group, {})
+-- end
