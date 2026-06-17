@@ -54,3 +54,5 @@ font-feature = -calt,-liga,-dlig
 font-size=14  
 keybind = alt+right=unbind
 keybind = alt+left=unbind
+font-family = JetBrainsMono NF Regular
+font-family-bold = JetBrainsMono NF Bold
