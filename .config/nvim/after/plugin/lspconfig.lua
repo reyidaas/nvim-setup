@@ -80,6 +80,7 @@ local servers = {
   'marksman',
   'graphql',
   "clangd",
+  "lua_ls",
 }
 
 for _, lsp in ipairs(servers) do
