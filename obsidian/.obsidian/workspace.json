@@ -60,6 +60,58 @@
             }
           },
           {
+            "id": "82f1c3292f6ff0f7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Source/Company 2 - 02-06-2026 22.08.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Company 2 - 02-06-2026 22.08"
+            }
+          },
+          {
+            "id": "6f6a4bf91688bd90",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Source/Interview preparation roadmap - 02-06-2026 22.09.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Interview preparation roadmap - 02-06-2026 22.09"
+            }
+          },
+          {
             "id": "dcf6003a8cba5d3c",
             "type": "leaf",
             "pinned": true,
@@ -71,6 +123,58 @@
               "pinned": true,
               "icon": "excalidraw-icon",
               "title": "Inbox - drawing.excalidraw"
+            }
+          },
+          {
+            "id": "76583f0404e50aee",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Source/VM hosting test project 01-02-2026 23.38.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "VM hosting test project 01-02-2026 23.38"
+            }
+          },
+          {
+            "id": "b128dd7600d513f4",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Source/Obsługa serwisu rowerowego Rowerowe.store - 16-05-2026 12.27.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Obsługa serwisu rowerowego Rowerowe.store - 16-05-2026 12.27"
             }
           }
         ],
@@ -142,8 +246,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5,
-    "collapsed": true
+    "width": 303.5
   },
   "right": {
     "id": "bb0751bebbe900c4",
@@ -210,19 +313,9 @@
               "icon": "lucide-list",
               "title": "Outline of 21-11-2024 00.47"
             }
-          },
-          {
-            "id": "02d67dc538883ec5",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw-sidepanel",
-              "state": {},
-              "icon": "excalidraw-icon",
-              "title": "Excalidraw Sidepanel"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -245,51 +338,51 @@
   },
   "active": "f396a27093fff97c",
   "lastOpenFiles": [
-    "Files/Inbox - drawing.excalidraw.md",
-    "Zettelkasten/Source/Lofree Flow 2 - 25-01-2026 15.31.md",
-    "Tags/hardware.md",
-    "Inbox.md",
     "Zettelkasten/Source/My sports gear 21-04-2025 15.58.md",
-    "Templates/tag.md",
-    "Zettelkasten/Source/rowerowe-store - 13-10-2025 00.29.md",
-    "Zettelkasten/Source/roadmap.sh 25-01-2026 15.28.md",
-    "Zettelkasten/Source/().md",
-    "Files/Drawing 2025-01-12 22.11.41.excalidraw.md",
-    "Files/Pasted Image 20250115172127_205.png",
-    "Files/Pasted Image 20250115172143_869.png",
-    "Goals/Personal goals.md",
-    "Goals/Programming goals.md",
-    "Zettelkasten/Source/Cortex Agent.md",
-    "Zettelkasten/Source/10xDevs - 06-04-2025 22.34.md",
-    "Files/Inbox 2026-01-24 18.57.52.excalidraw.md",
-    "Files/Drawing 2026-01-24 18.06.31.excalidraw.md",
-    "Files/Inbox 2026-01-24 18.03.57.excalidraw.md",
-    "Files/Inbox 2026-01-24 16.29.32.excalidraw.md",
-    "Quick notes/Quick note - 24-01-2026 15.09.md",
-    "Zettelkasten/Source/some note hey 24-01-2026 15.09.md",
-    "Files/Inbox 2026-01-23 23.21.04.excalidraw.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
-    "Excalidraw/Scripts/Downloaded/Mindmap Builder.md",
-    "Files/Inbox 2026-01-23 23.14.29.excalidraw.md",
-    "Files/Inbox 2026-01-23 22.50.29.excalidraw.md",
-    "Files/Inbox 2026-01-23 22.38.46.excalidraw.md",
-    "Files/Inbox 2026-01-23 22.25.55.excalidraw.md",
+    "Files/Inbox - drawing.excalidraw.md",
+    "Inbox.md",
+    "Zettelkasten/Source/Window management scripts - 18-06-2026 19.20.md",
+    "Zettelkasten/Source/Obsługa serwisu rowerowego Rowerowe.store - 16-05-2026 12.27.md",
+    "RCLONE_ACCESS.md",
+    "RCLONE_ACCESS",
+    "Zettelkasten/Source/VM hosting test project 01-02-2026 23.38.md",
+    "Zettelkasten/Source/Interview preparation roadmap - 02-06-2026 22.09.md",
+    "Zettelkasten/Source/Company 2 - 02-06-2026 22.08.md",
+    "Zettelkasten/Source/Untitled.md",
+    "Files/Obsługa serwisu rowerowego Rowerowe.store - 16-05-2026 12.27 2026-05-16 14.12.23.excalidraw.md",
+    "Files/Company 2 - 02-06-2026 22.08 2026-06-02 23.15.19.excalidraw.md",
+    "Zettelkasten/Source/The 2025–2026 Polish Market for Mid-Senior Frontend-Focused Fullstack TypeScript Developers Report - 02-06-2026 23.11.md",
+    "Zettelkasten/Source/Senior React + TypeScript Fullstack Interview Prep — Learning Sources by Topic (16-Week Plan) - 02-06-2026 22.35.md",
+    "Tags/company-2.md",
+    "Files/Obsługa serwisu rowerowego Rowerowe.store - 16-05-2026 12.27 2026-05-22 22.12.32.excalidraw.md",
+    "Files/f2911f8dcaf5d06ebb31d319439edb19f61134c4be29433ee76c9949516f5132.png",
+    "Files/c19d2862100fa999b0b1f81a130e51d749efde727acacca5b2585334ba60be22.png",
+    "Files/9086dbd17343f8cc967a16b59d03b3dc2c3d0d85ffee8951464c0680484c5683.png",
+    "Files/d1d441ea476ab048f3db7e4e36997caa46e4b82b2ef2fbd894e78b329338a3e7.png",
+    "Files/55a8fe0b0c38bebcfea42b152481b2b459a08e76b8c32995adfd2f82a31de1d4.png",
+    "Files/89cc3f8795b529a4cd32ec4231d87c88e056602787b5517ddf011ebccf11a5cf.png",
+    "Files/1c232fde1e65ef45a207e9381ecd68dfac7ca14767e6767c017f3469c77fe49c.png",
+    "Files/8870c0dbd8d2f2a1793cc32aab492ccb6e3da5ad3f801db7566cce3581538510.png",
+    "Files/c776f7abe88b8728983e7d9fb3815e59aa4e28c522fb181d263f5b2c210c8f43.png",
+    "Files/f4d697ab01e508e34a681a7d8c485881ff3b5cf72e0eed4188797928c023fb6a.png",
+    "Zettelkasten/Source/Cloudflare tunnels 31-01-2026 01.22.md",
+    "Zettelkasten/Source/Automatic backups with Restic - 08-02-2026 01.54.md",
+    "Quick notes/Product Heroes live - 21-03-2026 19.14.md",
+    "Zettelkasten/Source/Self hosted Docker registry - 04-02-2026 01.14.md",
+    "Zettelkasten/Source/Making Traefik accessible publicly 30-01-2026 20.13.md",
+    "Zettelkasten/Source/Ubuntu server installation 29-01-2026 23.23.md",
+    "Tags/restic.md",
+    "Zettelkasten/Source/Multi environment with Drone - 06-02-2026 00.19.md",
+    "Zettelkasten/Source/CICD with self hosted Drone - 01-02-2026 16.11.md",
+    "Zettelkasten/Source/Own implementation of OAuth flow - 01-02-2026 23.56.md",
     "Cortex",
     "Courses/Untitled",
-    "Files/Pasted Image 20250115171958_266.png",
-    "Files/Pasted Image 20250115171935_097.png",
     "Goals",
     "Quick notes/Koszykarstwo  - 10-12-2024 02.28md.txt",
     "Quick notes/Quick note - 22-11-2024 17.38.txt",
     "Quick notes/Quick note - 22-11-2024 17.33.txt",
     "snippets/hide-app-ribbon.css",
     "snippets",
-    "Files/Invert Colors Image.jpg",
-    "Files/Screenshot 2024-11-03 at 20.06.38.png",
-    "Files/IMG_6565.jpeg",
-    "Files/BC43E8F3-0BBF-4E13-A4AA-DB834704DD7D_1_201_a.heic",
-    "Quick notes/299-10-2024 00.38.txt",
-    "Files/Pasted image 20241024234448.jpg",
-    "Excalidraw/Scripts/Downloaded/Uniform size.svg"
+    "Files/BC43E8F3-0BBF-4E13-A4AA-DB834704DD7D_1_201_a.heic"
   ]
 }

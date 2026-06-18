@@ -29,12 +29,14 @@
   "continuousViewShowBacklinks": false,
   "missionControlViewZoomFactor": 0.5,
   "disablePointerInMissionControlView": true,
+  "showMissionControlToggle": true,
   "backgroundMode": false,
   "scrollableTabs": true,
   "scrollableTabsMinWidth": 100,
   "autoHideHorizontalTabs": false,
   "disableOnThisDevice": false,
   "enableUpdateCheck": true,
+  "newTabButtonPlacement": "group-toolbar",
   "showNewTabButtonAtBottom": false,
   "installationID": "Ge-eedCjIGAgcIYnXlxWQ"
 }

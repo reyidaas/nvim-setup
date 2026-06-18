@@ -43,7 +43,7 @@
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": false,
+                  "collapseAll": true,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -69,6 +69,40 @@
               "pinned": true,
               "icon": "excalidraw-icon",
               "title": "Inbox - drawing.excalidraw"
+            }
+          },
+          {
+            "id": "27d5bc654aeb02ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Source/Traefik and Docker 29-01-2026 23.40.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Traefik and Docker 29-01-2026 23.40"
+            }
+          },
+          {
+            "id": "7474981e8daf2f54",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -215,8 +249,10 @@
   },
   "active": "cd506f385d5f055c",
   "lastOpenFiles": [
-    "Zettelkasten/Source/My sports gear 21-04-2025 15.58.md",
     "Inbox.md",
+    "Zettelkasten/Source/Traefik and Docker 29-01-2026 23.40.md",
+    "Zettelkasten/Source/CICD with self hosted Drone - 01-02-2026 16.11.md",
+    "Zettelkasten/Source/My sports gear 21-04-2025 15.58.md",
     "Files/Inbox - drawing.excalidraw.md",
     "Zettelkasten/Source/10xDevs - 06-04-2025 22.34.md",
     "Files/Drawing 2026-01-24 18.06.31.excalidraw.md",
@@ -240,8 +276,6 @@
     "Cooking/Recipes list.md",
     "Tags/mountains.md",
     "Quick notes/Shottr - 21-02-2025 23.31.md",
-    "Quick notes/How do I feel  - 06-03-2025 10.21.md",
-    "Quick notes/Car repair expenses - 15-01-2025 19.03.md",
     "Projects/Ideas/Feed ",
     "Quick notes/Koszykarstwo  - 10-12-2024 02.28md.txt",
     "Quick notes/25-10-2024 00.46.txt",
