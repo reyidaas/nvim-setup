@@ -7,7 +7,7 @@ brew update
 brew install --HEAD luajit tree-sitter tree-sitter-cli neovim
 brew install grep ripgrep tmux marksman pnpm fzf lazygit lua-language-server
 
-npm i -g typescript typescript-language-server pyright vscode-langservers-extracted prettier @prisma/language-server @tailwindcss/language-server graphql-language-service-cli
+npm i -g typescript typescript-language-server pyright vscode-langservers-extracted prettier @prisma/language-server @tailwindcss/language-server graphql-language-service-cli corepack
 
 brew install rust-analyzer
 
